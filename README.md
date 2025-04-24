@@ -1,1 +1,1 @@
-# daily-digest-bot
+# daily-digest-bot 🤖
