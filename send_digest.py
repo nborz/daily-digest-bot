@@ -16,8 +16,8 @@ def send_to_telegram():
         "disable_web_page_preview": True
     }
     response = requests.post(url, data=payload)
-   print("Status Code:", response.status_code)
-print("Response Text:", response.text)
+    print("Status Code:", response.status_code)
+    print("Response Text:", response.text)
 
 if __name__ == "__main__":
     send_to_telegram()
